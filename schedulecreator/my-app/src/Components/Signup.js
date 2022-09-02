@@ -28,7 +28,11 @@ export default function Login() {
 
             <form id="conf-password">
               
+
               <input classname=" conf-password"  style={{width: '270px',padding:"8px 10px",color:"white",height:"30px", borderRadius:"15px",backdropFilter:"blur(5px)", backgroundColor:"rgb(56, 56, 56)", border:"none"}} name ="confpassword"  type="password"  required placeholder="Confirm Password" />
+
+              <input classname="conf-password"  style={{width: '270px',padding:"8px 10px",color:"white",height:"30px", borderRadius:"15px",backdropFilter:"blur(5px)", backgroundColor:"rgb(56, 56, 56)", border:"none"}} name ="confpassword"  type="password"  required placeholder="Confirm Password" />
+
             </form>
             
             </div>
@@ -36,7 +40,11 @@ export default function Login() {
             
             <p>Forgot password?</p>
             <p>Already using Slack?</p>
+
             <a to="/Signin" style={{ padding:"12px", textDecoration:"none",  margin: "12px", color:"pink"}}>Sign In to an existing workspace</a>
+
+            <a to="/Signin" style={{padding:"12px", textDecoration:"none",  margin: "12px", color:"pink"}}>Sign In to an existing workspace</a>
+
             </div>
         </div >
         </body>
